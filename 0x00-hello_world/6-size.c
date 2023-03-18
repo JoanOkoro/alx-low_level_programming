@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main -size is not grandeur, and territory does not make a nation
- *
  * Return: 0
 */
 int main(void)
