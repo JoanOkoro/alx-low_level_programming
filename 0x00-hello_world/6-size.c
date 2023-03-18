@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main -print out sizes of data types in c
+ * main -size is not grandeur, and territory does not make a nation
  *
- * Return: Always zero (sucess)
+ * Return: 0
 */
 int main(void)
 {
