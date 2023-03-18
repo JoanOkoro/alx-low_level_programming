@@ -1,13 +1,15 @@
 #include <unistd.h>
 /**
- * main -being a genuis to understand unix
- * Return: 1
- * Description: code by joan okoro
+ * main -entry point
+ *
+ * Description: print a quote using write function
+ * size_t write(int fd, const void *buf, size_t count);
+ *
+ * Return: 1 (error).
 */
 int main(void)
 {
-const char *message = "and that piece of art is useful\"
-Dora Korpar,2015-10-19\n";
-write(STDOUT_FILENO, message, strlen(message));
+char quo[] = "and that piece of art is useful\"- Dora Korpar, 2015-10-19\n";
+write(1, quo, 59);
 return (1);
 }
