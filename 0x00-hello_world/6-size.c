@@ -1,8 +1,8 @@
 # include <stdio.h>
 /**
- * main - Entry point
+ * main - Size of datatypes in c
  *
- * Return: 0
+ * Return: Always 0 (success)
 */
 int main(void)
 {
