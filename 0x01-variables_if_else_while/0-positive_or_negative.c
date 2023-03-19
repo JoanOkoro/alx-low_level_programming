@@ -1,32 +1,33 @@
-#include <stdlib.h>
-#include <time.h>
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- * main -Entry point
+ * main -positive or negative
+ * Description -code by joan okoro
  *
  * Return: Always 0 (sucess)
- *
 */
-int main(void)
+
+int main(void)
 {
-int n;
+int n;
 srand(time(0));
-n  =  rand() - RAND_MAX / 2;
+n = rand() - RAND_MAX / 2;
 
-if (n > 0);
+if (n > 0)
 {
-printf("is positive \n");
+printf("is positive\n");
 }
 
-if (n == 0);
+if (n == 0)
 {
-printf("is zero \n");
+printf("is zero\n");
 }
 
-if (n < 0);
+if (n < 0)
 {
-printf("is negative \n");
+printf("is negative\n");
 }
 
-return (0);
+return (0);
 }
