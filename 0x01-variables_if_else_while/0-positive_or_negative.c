@@ -11,22 +11,24 @@
 int main(void)
 {
 int n;
+printf("Enter n: ");
+scanf("%d", &n);
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 if (n > 0)
 {
-printf("n is positive\n");
+printf("is positive\n");
 }
 
 if (n == 0)
 {
-printf("n is zero\n");
+printf("is zero\n");
 }
 
 if (n < 0)
 {
-printf("n is negative\n");
+printf("is negative\n");
 }
 
 return (0);
