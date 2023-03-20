@@ -2,32 +2,34 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main -positive or negative
- * Description -code by joan okoro
+ * main - positive or negative
  *
- * Return: Always 0 (sucess)
+ * Return: Always 0 (success)
+ *
 */
 
 int main(void)
+
 {
-int n;
+int n = 98;
+
 srand(time(0));
 n = rand() - RAND_MAX / 2;
 
 if (n > 0)
 {
-printf("is positive");
+printf("%d is positive", n);
 }
 
 if (n == 0)
-{
-printf("is zero");
+printf("%d is zero", n);
 }
 
 if (n < 0)
 {
-printf("is negative");
+printf("%d is negative", n);
 }
 
 return (0);
+
 }
