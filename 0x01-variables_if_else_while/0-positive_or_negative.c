@@ -4,7 +4,7 @@
 /**
  * main - positive or negative
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  *
 */
 
@@ -15,18 +15,14 @@ int n;
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-
-printf("%", n);
+if (n == 0)
+print("%d is zero\n", n);
 
 if (n > 0)
-printf("is positive"\n);
+print("%d is positive\n", n);
 
-if else(n == 0)
-printf("is zero"\n);
-
-else
-printf("is negative"\n);
+if (n < 0)
+print("%d is negative\n", n);
 
 return (0);
-
 }
