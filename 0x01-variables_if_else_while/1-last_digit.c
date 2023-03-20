@@ -11,7 +11,9 @@
 int main(void)
 {
 
-int n;
+int = n;
+char str[] = "Last digit of\O";
+char str[] = "is\O";
 
 srand(time(0));
 n = rand() - RAND_MAX / 2;
