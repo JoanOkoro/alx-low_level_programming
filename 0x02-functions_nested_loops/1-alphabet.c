@@ -13,12 +13,10 @@ int main(void)
 
 char c;
 
-char letter = 'a';
-while (letter <= 'z')
+for (c = 'a'; c <= 'z'; c++)
 
 {
-_putchar(letter);
-letter++;
+_putchar(c);
 }
 
 _putchar('\n');
