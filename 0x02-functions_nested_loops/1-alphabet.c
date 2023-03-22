@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
  * main - Entry point
@@ -10,22 +9,19 @@
 */
 
 int main(void)
-
 {
 
 char c;
-print_alphabet;
-for (c = 'a'; c <= 'z'; c++)
+
+char letter = 'a';
+while (letter <= 'z')
 
 {
-
-
-putchar(c);
-
+_putchar(letter);
+letter++;
 }
 
-
-putchar('\n');
+_putchar('\n');
 
 
 return (0);
