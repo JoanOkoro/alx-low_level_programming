@@ -1,6 +1,6 @@
-int n;
-#include "main.h"
-int main(void)
-{
-_putchar(test());
-}
+#ifndef MAIN_H
+#define MAIN_H
+
+int _putchar(char c);
+
+#endif
