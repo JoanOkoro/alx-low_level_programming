@@ -13,8 +13,8 @@ int main(void)
 
 {
 
-print_alphabet();
 char c;
+print_alphabet;
 for (c = 'a'; c <= 'z'; c++)
 
 {
