@@ -10,7 +10,7 @@
 
 int main(int arg_count, char *arg_vector[] __attribute__ ((unused)))
 {
-	printf("%d\n", arg_count);
+	printf("%d\n", arg_count - 1);
 	return (0);
 
 }
