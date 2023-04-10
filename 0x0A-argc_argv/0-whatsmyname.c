@@ -11,7 +11,6 @@
 int main(int arg_count __attribute__ ((unused)), char *arg_vector[])
 {
 	printf("%s\n", arg_vector[0]);
-	printf("%s\n", arg_vector[0]);
 
 	return (0);
 }
