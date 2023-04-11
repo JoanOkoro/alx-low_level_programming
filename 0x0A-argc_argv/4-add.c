@@ -21,7 +21,7 @@ for (n = 1; n < arg_count; ++n)
 {
 for (d = 0; arg_vector[n][d]; ++d)
 {
-if (arg_vector[n][d] < '0' || arg_vector[n][d] >= '9')
+if (arg_vector[n][d] < '0' || arg_vector[n][d] > '9')
 {
 printf("Error\n");
 return (1);
