@@ -16,10 +16,9 @@ int main(int arg_count, char *arg_vector[])
 int d = 0;
 int n = 0;
 int s = 0;
-
 int coins[] = {25, 10, 5, 2, 1};
 
-if (arg_count != 2)
+if (arg_count == 1 || arg_count > 2)
 {
 printf("Error\n");
 return (1);
@@ -35,11 +34,11 @@ printf("Error\n");
 return (1);
 }
 
-for (d = 0; d < 5; ++d)
+for (d = 0; d < 5; d++)
 {
 while (n >= coins[d])
 {
-++s;
+s++;
 n = n - coins[d];
 }
 }
