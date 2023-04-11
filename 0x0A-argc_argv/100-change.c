@@ -29,8 +29,7 @@ n = atoi(arg_vector[1]);
 if (n < 0)
 
 {
-
-printf("Error\n");
+printf("0\n");
 return (1);
 }
 
